@@ -68,7 +68,6 @@ module.exports = {
 		}),
 		new CleanWebpackPlugin(),
 		new HtmlWebpackPlugin({
-			filename: 'index.html',
 			template: 'src/templates/index.hbs',
 			chunks: [ 'index' ],
 			minify: {

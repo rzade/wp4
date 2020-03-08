@@ -61,7 +61,6 @@ module.exports = {
 		new CleanWebpackPlugin(),
 		new HtmlWebpackPlugin({
 			template: 'src/templates/index.hbs',
-			filename: 'index',
 			chunks: [ 'index' ],
 			title: 'Hello World',
 			description: 'Hello World description'

@@ -1,9 +1,11 @@
 {
   "name": "wp4",
   "version": "1.0.0",
+  "author": "Rahman Qadirzade",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "git:push": "git add . && git commit -m 'last' && git push origin master",
     "build": "webpack --config webpack.production.config.js",
     "dev": "webpack-dev-server --config webpack.development.config.js --hot",
     "start": "webpack --config webpack.production.config.js && nodemon src/server.js"
